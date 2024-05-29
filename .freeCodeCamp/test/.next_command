@@ -140,3 +140,6 @@ history -a
 echo $PWD >> /workspace/project/.freeCodeCamp/test/.cwd
 history -a
 psql --username=freecodecamp --dbname=postgres
+echo $PWD >> /workspace/project/.freeCodeCamp/test/.cwd
+history -a
+psql --username=freecodecamp --dbname=postgres
